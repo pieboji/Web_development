@@ -59,7 +59,6 @@ displayEntries();
 
 Form.addEventListener("submit", saveForm);
 displayEntries();
-localStorage.clear();
 
 const input = document.querySelector("#dob");
         input.addEventListener("input", function() {
